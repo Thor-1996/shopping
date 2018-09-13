@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+*{margin:0;padding: 0;font-family: "微软雅黑";}
+body{background:url('images/35.jpg')center no-repeat/100% 100%;position: relative;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+#Nav {height:60px;}
+#Nav .nav{padding:0px;margin-top:20px;left:50%;float:left;width:90px;height:20px;line-height:20px;font-size:14px;
+             color:white;position:relative;text-align:center;}
+#Nav ul li.nav a{color:white}
+#Nav ul li.nav a:hover{color: red;}
+#Nav ul li.nav .menu{width:160px ;background:white;position:0 100px;position:absolute;z-index: 1;border:1px solid gray;filter:Alpha(opacity=90);-moz-opacity:0.9;opacity:0.9;
+             left:-92px;display:none;padding:10px;}
+
+#Nav ul li p{width:80px;float:left;line-height:25px;font-size:10px;color:black;}
+#Nav ul li span{font-size:14px；font-weight:bold;color: black;float: left;}
+#Nav ul li.nav .menu p a{color:black;}  
+#Nav ul li.nav .menu p a:hover{color:red;}
+            
+
+
+/* */
+#info .first span{color:#ff0033;font-family:"楷体";font-size:15px;}
+#info .first a{color:black;text-decoration:none;}
+#info .first a:hover{color:#ff0000;}
+
+
+#top{width:1272px;height:450px;position: relative;margin:auto;top:0px;}
+#top .p{width:1210px;height:450px;position: absolute;}
+#top ul.button li{width:50px;height:10px;background:black;
+    float:left; margin:0px 5px;
+    list-style-type:none;border-radius:10px;}
+#top ul.button{height:20px; position:absolute;left:55%;bottom:10px;
+  display:inline-block;}
+#top ul.button li.hover{background:white;}
+
+
+
+/*  */
+#banner{width: 207px;height: 460px;background:url('images/bg.jpg');float: left;position: relative;}
+#banner ul li.firstli{line-height: 42px;font-size:14px;color: #fff;cursor:pointer;text-indent: 30px;}
+#banner ul li.firstli:hover{background: #ff9900;}
+#banner ul li.firstli .info{height:460px;background: #fff;position: absolute;top: 0;left: 207px;padding-right:10px; display:none;}
+#banner ul li.firstli .info ul li{width:248px;height: 70px;margin-right: 20px;text-indent: 0px;position:absolute;z-index:1;}
+#banner ul li.firstli .info ul li.secondli a.title{line-height: 70px;}
+#banner ul li.firstli .info ul li.secondli a.title img{margin:16.5px 15px 0 15px;float: left;}
+#banner ul li.firstli .info ul li.secondli a.title span{float:left;}
+#banner ul li.firstli .info ul li.secondli a.buy{float: right;margin-top:20px;width:50px;height:30px;line-height:30px;display:block;background:white;text-align:center;box-shadow:10px;color: #f60;border:1px solid #f60;border-radius:5px;}
+#banner ul li.firstli .info ul li.secondli a.buy:hover{background:#f60;color:white;}
+  .search{float: right;position:absolute;top:200px;left:860px;}
+
+
+#show{width:1272px;height:460px;}
+#show .img{width:1210px;height:460px;position:absolute;z-index: -1;}
+
+</style>
+<body>
+    <!--  min nav start-->
+    <div id='Nav'>
+        <ul>
+            <li class="nav">
+                <a href="#" >你好，请登录</a>
+            </li>
+            <li class="nav">
+                <a href="#" >免费注册&nbsp;&nbsp;</a>|
+            </li>
+            <li class="nav">
+                <a  href="//order.jd.com/center/list.action" target="_balnk">我的订单&nbsp;&nbsp;</a>|
+            </li>
+            <li class="nav">
+                <a href="#" target="_balnk">我的网购&nbsp;&nbsp;</a>|
+                <div class="menu">
+                    <p><a href="#" target="_balnk">待处理订单</a></p>
+                    <p><a href="#" target="_balnk">返修或退货</a></p>
+                    <p><a href="#" target="_balnk">降价商品</a></p>
+                    <p><a href="#" target="_balnk">消息</a></p>
+                    <p><a href="#" target="_balnk">我的问答</a></p>
+                    <p><a href="#" target="_balnk">我的关注</a></p>
+                </div>
+            </li>
+            <li class="nav">
+                <a href="#" target="_balnk">我的会员&nbsp;&nbsp;</a>|
+            </li>
+            <li class="nav">
+                <a href="#" target="_balnk">企业采购&nbsp;&nbsp;</a>|
+            </li>
+            <li class="nav">
+                <a href="#" target="_balnk">客户服务&nbsp;&nbsp;</a>|
+                <div class="menu">
+                    <span>客户</span><br>
+                    <p><a href="#" target="_balnk">帮助中心</a></p>
+                    <p><a href="#" target="_balnk">售后服务</a></p>
+                    <p><a href="#" target="_balnk">在线客服</a></p>
+                    <p><a href="#" target="_balnk">意见建议</a></p>
+                    <p><a href="#" target="_balnk">客服邮箱</a></p>
+                    <p><a href="#" target="_balnk">金融资讯</a></p>
+                    <span>商户<br></span><br>
+                    <p><a href="#" target="_balnk">合作招商</a></p>
+                    <p><a href="#" target="_balnk">网络商学院</a></p>
+                    <p><a href="#" target="_balnk">商家后台</a></p>
+                    <p><a href="#" target="_balnk">平台工作室</a></p>
+                    <p><a href="#" target="_balnk">商家帮助</a></p>
+                    <p><a href="#" target="_balnk">平台规则</a></p>
+                </div>
+            </li>
+            <li class="nav">
+                <a href="#" target="_balnk">网站导航
+                <div class="menu">
+                    <p><a href="#" target="_balnk">家用电器</a></p>
+                    <p><a href="#" target="_balnk">手机</a></p>
+                    <p><a href="#" target="_balnk">运营商</a></p>
+                    <p><a href="#" target="_balnk">数码</a></p>
+                    <p><a href="#" target="_balnk">电脑办公</a></p>
+                    <p><a href="#" target="_balnk">家居家具</a></p>
+                    <p><a href="#" target="_balnk">家装厨具</a> </p>
+                    <p><a href="#" target="_balnk">男装女装</a></p>
+                    <p><a href="#" target="_balnk">美妆个护</a></p>
+                    <p><a href="#" target="_balnk">女鞋</a></p>
+                    <p><a href="#" target="_balnk">箱包</a></p>
+                    <p><a href="#" target="_balnk">宠物</a></p>
+                    <p><a href="#" target="_balnk">童装</a></p>
+                    <p><a href="#" target="_balnk">内衣</a></p>
+                    <p><a href="#" target="_balnk">钟表</a></p>
+                    <p><a href="#" target="_balnk">珠宝</a></p>
+                    <p><a href="#" target="_balnk">男鞋运动</a></p>
+                    <p><a href="#" target="_balnk">汽车用品</a></p>
+                    <p><a href="#" target="_balnk">母婴</a></p>
+                    <p><a href="#" target="_balnk">食品</a></p>
+                    <p><a href="#" target="_balnk">玩具</a></p>
+                    <p><a href="#" target="_balnk">乐器</a></p>
+                    <p><a href="#" target="_balnk">生鲜</a></p>
+                    <p><a href="#" target="_balnk">酒类</a></p>
+                    <p><a href="#" target="_balnk">特产</a></p>
+                    <p><a href="#" target="_balnk">医药保健</a></p>
+                    <p><a href="#" target="_balnk">计生情趣</a></p>
+                    <p><a href="#" target="_balnk">图书</a></p>
+                    <p><a href="#" target="_balnk">音像</a></p>
+                    <p><a href="#" target="_balnk">机票</a></p>
+                    <p><a href="#" target="_balnk">酒店</a></p>
+                    <p><a href="#" target="_balnk">旅游</a></p>
+                    <p><a href="#" target="_balnk">理财</a></p>
+                    <p><a href="#" target="_balnk">众筹</a></p>
+                    <p><a href="#" target="_balnk">白条</a></p>
+                    <p><a href="#" target="_balnk">保险</a></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--  min nav end-->
+    <!--  img start-->
+    <div id="top">
+        <div class="p" style="background:url('images/p1.jpg') center no-repeat/100% 100%"></div>
+        <div class="p" style="background:url('images/p2.jpg') center no-repeat/100% 100%"></div>
+        <div class="p" style="background:url('images/p3.jpg') center no-repeat/100% 100%"></div>
+        <div class="p" style="background:url('images/p4.jpg') center no-repeat/100% 100%"></div>
+        <div class="p" style="background:url('images/p5.jpg') center no-repeat/100% 100%"></div>
+        <div class="p" style="background:url('images/p7.jpg') center no-repeat/100% 100%"></div>
+        <ul class="button">
+            <li class="hover"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>   
+        </ul>
+    </div>
+    <!--  img end-->
+
+  <div style="width: 1272px;margin: 40px auto;">
+      <div id="banner">
+     	<ul>
+     	  <li class="firstli">手机 电话卡
+           <div class="info">
+              <ul>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/4s.jpg" style="width: 40px;height: 40px;"><span>iphone 4S</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/5s.jpg" style="width: 40px;height: 30px;"><span>iphone5/5S</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/i6.jpg" style="width: 40px;height: 30px"><span>iphone6</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/6s.jpg" style="width: 40px;height: 40px;"><span>iphone6s</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/i7.jpg" style="width: 40px;height: 40px;"><span>iphone7</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/1/1.jpg"><span>小米Note2</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/1/2.jpg"><span>红米Note</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/1/3.jpg"><span>小米5</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/1/4.jpg"><span>小米4</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/1/5.jpg"><span>华为荣耀7</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/1/6.jpg"><span>华为mate8</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xplay6.jpg" style="width: 40px;height: 30px;"><span>Vivo Xplay6</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/x9.jpg" style="width: 40px;height: 40px;"><span>Vivo X9</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/r9s.jpg" style="width: 40px;height: 40px;"><span>OPPO R9s</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/t3.jpg" style="width: 40px;height: 40px;"><span>锤子T3</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/samsung s5.jpg" style="width:50px;height:40px;"><span>三星s5</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/samsung s6.jpg" style="width: 50px;height:40px;"><span>三星s6 Edge</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/samsung s7.jpg" style="width: 50px;height:40px;"><span>三星s7 Edge</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/samsung s8.jpg" style="width: 50px;height:40px;"><span>三星s8/s8+</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/1+.jpg" style="width: 50px;height:40px;"><span>一加手机3T</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nubia.jpg" style="width: 50px;height:40px;"><span>努比亚Z17mini</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <a href="https://shouji.jd.com/" target="_balnk" class="search"><span>获取更多>></span></a>
+                </ul>
+           </div>
+     	</li>
+     	<li class="firstli">笔记本 平板
+              <div class="info">
+              <ul>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mac.jpg" style="width: 40px;height: 40px;"><span>macbook Air</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/macbook1.jpg" style="width: 40px;height: 30px;"><span>macbook Pro</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/macbook2.jpg" style="width: 40px;height: 30px"><span>macbook</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/lenvo1.jpg" style="width: 40px;height: 40px;"><span>联想小新</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/lenvo2.jpg" style="width: 40px;height: 40px;"><span>Y-70</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/dell1.jpg" style="width: 40px;height: 40px;"><span>外星人</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/iPadmini4.jpg" style="width: 40px;height: 40px;"><span>iPad mini4</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/iPad.jpg" style="width: 40px;height: 40px;"><span>ipad Air</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ipadair2.jpg" style="width: 40px;height: 40px;"><span>ipad Air2</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ipadpro.jpg" style="width: 40px;height: 40px;"><span>ipad Pro</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hppad.jpg" style="width: 40px;height: 40px;"><span>惠普pad</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hwpad.jpg" style="width: 40px;height: 30px;"><span>华为荣耀pad</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/hspad.jpg" style="width: 40px;height: 40px;"><span>华硕zenpad 3s</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hwly.jpg" style="width: 40px;height: 40px;"><span>华为揽阅M2</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/lenvopad.jpg" style="width: 40px;height: 40px;"><span>联想YOGA3 X50</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/lenvopad1.jpg" style="width:50px;height:40px;"><span>联想tab3 730</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hp1.jpg" style="width: 50px;height:40px;"><span>惠普暗夜精灵二代</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/hs1.jpg" style="width: 50px;height:40px;"><span>华硕顽石四代</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xiaomi.jpg" style="width: 50px;height:40px;"><span>小米Air</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/acer1.jpg" style="width: 50px;height:40px;"><span>宏碁蜂鸟</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/thinkpad.jpg" style="width: 50px;height:40px;"><span>ThinkPad S2</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <a href="https://search.jd.com/Search?keyword=笔记本平板" target="_balnk" class="search"><span>获取更多>></span></a>
+                </ul>
+                </div>
+      </li>
+     	<li class="firstli">数码家电
+
+         <div class="info">
+              <ul>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/S1.jpg" style="width: 40px;height: 40px;"><span>西门子XQG70</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/S2.jpg" style="width: 40px;height: 30px;"><span>西门子XQG80</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/sx.jpg" style="width: 40px;height: 30px"><span>三星智能电冰箱</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xmz.jpg" style="width: 40px;height: 40px;"><span>西门子智能电冰箱</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/sx1.jpg" style="width: 40px;height: 40px;"><span>三星曲面显示屏</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/sx2.jpg" style="width: 40px;height: 40px;"><span>三星4k显示屏</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/rsd.jpg" style="width: 40px;height: 40px;"><span>荣事达电煮锅</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/sbe.jpg" style="width: 40px;height: 40px;"><span>苏泊尔电煮锅</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hbdkx.jpg" style="width: 40px;height: 40px;"><span>烘培电烤箱</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ym.jpg" style="width: 40px;height: 40px;"><span>御明自动炒菜机</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/lr.jpg" style="width: 40px;height: 40px;"><span>利仁电火锅</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/alsd.jpg" style="width: 40px;height: 30px;"><span>阿里斯顿滚筒洗衣机</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/ld.jpg" style="width: 40px;height: 40px;"><span>镭豆空气检测仪</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/kw.jpg" style="width: 40px;height: 40px;"><span>卡蛙便携式烘干机</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/yh.jpg" style="width: 40px;height: 40px;"><span>樱花脱水机</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/qn.jpg" style="width:50px;height:40px;"><span>家用取暖器</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/jy.jpg" style="width: 50px;height:40px;"><span>碗柜餐具烘干机</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/wy.jpg" style="width: 50px;height:40px;"><span>无叶风扇</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/kts.jpg" style="width: 50px;height:40px;"><span>空调扇冷气扇</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/kqjh.jpg" style="width: 50px;height:40px;"><span>空气进化机</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/zzj.jpg" style="width: 50px;height:40px;"><span>低噪音榨汁机</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <a href="https://search.jd.com/Search?keyword=家电" target="_balnk" class="search"><span>获取更多>></span></a>
+                </ul>
+                </div>
+      </li>
+     	<li class="firstli">数码/配件
+         <div class="info">
+              <ul>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ab.jpg" style="width: 40px;height: 40px;"><span>爱飚苹果手机壳</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/sjx.jpg" style="width: 40px;height: 30px;"><span>华为原装数据线</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/sjx.jpg" style="width: 40px;height: 30px"><span>vivo数据线</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ghm.jpg" style="width: 40px;height: 40px;"><span>三星c9钢化膜</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj.jpg" style="width: 40px;height: 40px;"><span>SONY数码相机</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj1.jpg" style="width: 40px;height: 40px;"><span>canno相机</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj2.jpg" style="width: 40px;height: 40px;"><span>卡西欧自拍神器</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj3.jpg" style="width: 40px;height: 40px;"><span>小蚁微单</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj4.jpg" style="width: 40px;height: 40px;"><span>柯达FZ53</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj5.jpg" style="width: 40px;height: 40px;"><span>松下Lumix</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj6.jpg" style="width: 40px;height: 40px;"><span>佳能EOS</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj7.jpg" style="width: 40px;height: 30px;"><span></span>Nikon数码单反</a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj8.jpg" style="width: 40px;height: 40px;"><span>松下 LX10</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj9.jpg" style="width: 40px;height: 40px;"><span>佳能小型数码相机</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj10.jpg" style="width: 40px;height: 40px;"><span>徕卡相机</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj11.jpg" style="width:50px;height:40px;"><span>佳能IXUS175</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj12.jpg" style="width: 50px;height:40px;"><span>佳能Powershot</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj13.jpg" style="width: 50px;height:40px;"><span>索尼长焦数码相机</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj14.jpg" style="width: 50px;height:40px;"><span>卡西欧 EX-TR750</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj15.jpg" style="width: 50px;height:40px;"><span>索尼DSC-W810</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/xj16.jpg" style="width: 50px;height:40px;"><span>长城 16HD21</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <a href="https://search.jd.com/Search?keyword=数码相机" target="_balnk" class="search"><span>获取更多>></span></a>
+                </ul>
+                </div>
+      </li>
+     	<li class="firstli">运动户外
+          <div class="info">
+              <ul>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike1.jpg" style="width: 40px;height: 40px;"><span>Nike登月</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike2.jpg" style="width: 40px;height: 30px;"><span>Nike 819300</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike3.jpg" style="width: 40px;height: 30px"><span>Nike 849559</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike4.jpg" style="width: 40px;height: 40px;"><span>Nike 806771</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike5.jpg" style="width: 40px;height: 40px;"><span>Nike 833260</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike6.jpg" style="width: 40px;height: 40px;"><span>Nike 812654</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike7.jpg" style="width: 40px;height: 40px;"><span>Nike 631754</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike8.jpg" style="width: 40px;height: 40px;"><span>Nike 802611</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike9.jpg" style="width: 40px;height: 40px;"><span>Nike 831069</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike10.jpg" style="width: 40px;height: 40px;"><span>Nike 51881</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike11.jpg" style="width: 40px;height: 40px;"><span>Nike 843725</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike12.jpg" style="width: 40px;height: 30px;"><span>Nike 843726</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike13.jpg" style="width: 40px;height: 30px;"><span>Nike 852461</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike14.jpg" style="width: 40px;height: 40px;"><span>Nike 805941</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike15.jpg" style="width: 40px;height: 40px;"><span>Nike 852462</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike16.jpg" style="width:50px;height:40px;"><span>Nike 898457</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike17.jpg" style="width: 50px;height:40px;"><span>Nike 819300 </span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike18.jpg" style="width: 50px;height:40px;"><span>Nike 812654</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike19.jpg" style="width: 50px;height:40px;"><span>Nike 705149</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike20.jpg" style="width: 50px;height:40px;"><span>Nike 819300</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nike21.jpg" style="width: 50px;height:40px;"><span>Nike 819685</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <a href="https://search.jd.com/Search?keyword=户外鞋" target="_balnk" class="search"><span>获取更多>></span></a>
+                </ul>
+                </div>
+      </li>
+     	<li class="firstli">男装
+           <div class="info">
+              <ul>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz1.jpg" style="width: 50px;height:40px;"><span>七匹狼外套</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz2.jpg" style="width: 50px;height:40px;"><span>红豆外套</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz3.jpg" style="width: 50px;height:40px;"><span>商务夹克</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz4.jpg" style="width: 50px;height:40px;"><span>GSA春季夹克</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz5.jpg" style="width: 50px;height:40px;"><span>韩版修身连帽</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz6.jpg" style="width: 50px;height:40px;"><span>南极人夹克</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz21.jpg" style="width: 50px;height:40px;"><span>修身外套</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz8.jpg" style="width: 50px;height:40px;"><span>罗蒙休闲服</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz9.jpg" style="width: 50px;height:40px;"><span>森马春季新款</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz10.jpg" style="width: 50px;height:40px;"><span>卡帝乐鳄鱼</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz11.jpg" style="width: 50px;height:40px;"><span>A21春季外套</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz12.jpg" style="width: 50px;height:40px;"><span>花花公子外套衫</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz13.jpg" style="width: 50px;height:40px;"><span>九牧王春秋新品</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz14.jpg" style="width: 50px;height:40px;"><span>杰克琼斯棒球服</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz15.jpg" style="width: 50px;height:40px;"><span>南极人夹克</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz16.jpg" style="width: 50px;height:40px;"><span>卡帝乐新款立领</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz17.jpg" style="width: 50px;height:40px;"><span>机车夹克衫</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz18.jpg" style="width: 50px;height:40px;"><span>劲霸时尚立领</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz19.jpg" style="width: 50px;height:40px;"><span>太平鸟时尚棒球服</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz20.jpg" style="width: 50px;height:40px;"><span>MGdol夹克</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/nz21.jpg" style="width: 50px;height:40px;"><span>红豆商务外套</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <a href="https://search.jd.com/Search?keyword=男装" target="_balnk" class="search"><span>获取更多>></span></a>
+                </ul>
+                </div>
+      </li>
+     	<li class="firstli">女装
+           <div class="info">
+              <ul>
+               <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz1.jpg" style="width: 50px;height:40px;"><span>韩都衣舍连衣裙</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz2.jpg" style="width: 50px;height:40px;"><span>韩都衣舍亚麻套</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz3.jpg" style="width: 50px;height:40px;"><span>伊莲娜春装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz4.jpg" style="width: 50px;height:40px;"><span>阿什那春装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz5.jpg" style="width: 50px;height:40px;"><span>法国鳄鱼</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz6.jpg" style="width: 50px;height:40px;"><span>哥瑞美短袖连衣裙</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz7.jpg" style="width: 50px;height:40px;"><span>永恒之秀</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz8.jpg" style="width: 50px;height:40px;"><span>洛诗琳春季新款</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz9.jpg" style="width: 50px;height:40px;"><span>烟花烫女裙</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz10.jpg" style="width: 50px;height:40px;"><span>OMGB春夏季女套</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz11.jpg" style="width: 50px;height:40px;"><span>奈诗伊人连衣裙</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz12.jpg" style="width: 50px;height:40px;"><span>欧思路女装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz13.jpg" style="width: 50px;height:40px;"><span>如意大小姐连衣裙</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz14.jpg" style="width: 50px;height:40px;"><span>锦兰伊月短外套</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz15.jpg" style="width: 50px;height:40px;"><span>柯米罗雪纺连衣裙</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz16.jpg" style="width: 50px;height:40px;"><span>柯兰娜时尚连衣裙</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz17.jpg" style="width: 50px;height:40px;"><span>圣堡曼雪纺连衣裙</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz18.jpg" style="width: 50px;height:40px;"><span>倾衣啬新款连衣裙</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz19.jpg" style="width: 50px;height:40px;"><span>溪微连衣裙</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz20.jpg" style="width: 50px;height:40px;"><span>韩适尚连衣裙</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/mz21.jpg" style="width: 50px;height:40px;"><span>依语幽香韩版连衣</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <a href="https://search.jd.com/Search?keyword=女装2017" target="_balnk" class="search"><span>获取更多>></span></a>
+                </ul>
+                </div>
+      </li>
+     	<li class="firstli">美妆
+           <div class="info">
+              <ul>
+               <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz1.jpg" style="width: 40px;height: 40px;"><span>卡姿兰彩妆套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz2.jpg" style="width: 40px;height: 40px;"><span>巧迪尚惠彩妆套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz3.jpg" style="width: 40px;height: 40px;"><span>苏菲娜彩妆套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz4.jpg" style="width: 40px;height: 40px;"><span>BOB彩妆套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz5.jpg" style="width: 40px;height: 40px;"><span>千颂伊彩妆套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz6.jpg" style="width: 40px;height: 40px;"><span>BOB彩妆套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz7.jpg" style="width: 40px;height: 40px;"><span>韩熙贞彩妆套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz8.jpg" style="width: 40px;height: 40px;"><span>BOB彩妆组合</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz9.jpg" style="width: 40px;height: 40px;"><span>BOB彩妆初学</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz10.jpg" style="width: 40px;height: 40px;"><span>卡姿兰粉饼套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz11.jpg" style="width: 40px;height: 40px;"><span>卡姿兰全套</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz12.jpg" style="width: 40px;height: 40px;"><span>巴巴罗莎彩妆套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz13.jpg" style="width: 40px;height: 40px;"><span>柔色彩妆套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz14.jpg" style="width: 40px;height: 40px;"><span>倩颂伊彩妆套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz15.jpg" style="width: 40px;height: 40px;"><span>柔色初学套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz16.jpg" style="width: 40px;height: 40px;"><span>倩盼彩妆套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz17.jpg" style="width: 40px;height: 40px;"><span>悦诗风吟彩妆套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz18.jpg" style="width: 40px;height: 40px;"><span>卡姿兰初学套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz119.jpg" style="width: 40px;height: 40px;"><span>巧迪尚惠彩妆套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz20.jpg" style="width: 40px;height: 40px;"><span>卡姿兰淡妆</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/hz21.jpg" style="width: 40px;height: 40px;"><span>左颜右色彩妆套装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+
+
+
+                <a href="https://search.jd.com/Search?keyword=美妆" target="_balnk" class="search"><span>获取更多>></span></a>
+                </ul>
+                </div>
+      </li>
+     	<li class="firstli">手表配饰
+           <div class="info">
+              <ul>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb1.jpg" style="width: 40px;height: 40px;"><span>劳力士</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb2.jpg" style="width: 40px;height: 40px;"><span>劳力士</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb3.jpg" style="width: 40px;height: 40px;"><span>天梭T41</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb4.jpg" style="width: 40px;height: 40px;"><span>天梭T41.483</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb5.jpg" style="width: 40px;height: 40px;"><span>天梭T41.423</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb6.jpg" style="width: 40px;height: 40px;"><span>浪琴L4情侣款</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb7.jpg" style="width: 40px;height: 40px;"><span>浪琴L2男款</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb8.jpg" style="width: 40px;height: 40px;"><span>天梭T41.424</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb9.jpg" style="width: 40px;height: 40px;"><span>艾戈勒原装</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb10.jpg" style="width: 40px;height: 40px;"><span>卡西欧GA-110</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb11.jpg" style="width: 40px;height: 40px;"><span>浪琴L4男表</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb12.jpg" style="width: 40px;height: 40px;"><span>浪琴L3机械男表</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb13.jpg" style="width: 40px;height: 40px;"><span>浪琴L2机械女表</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb14.jpg" style="width: 40px;height: 40px;"><span>浪琴瑰丽系列</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb15.jpg" style="width: 40px;height: 40px;"><span>丹尼尔惠灵顿</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb16.jpg" style="width: 40px;height: 40px;"><span>阿帕奇</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb17.jpg" style="width: 40px;height: 40px;"><span>浪琴L3康卡斯</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+            
+                 <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb18.jpg" style="width: 40px;height: 40px;"><span>浪琴L4瑰丽男表</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb19.jpg" style="width: 40px;height: 40px;"><span>冠琴男表</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb20.jpg" style="width: 40px;height: 40px;"><span>雷克斯全自动</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/sb21.jpg" style="width: 40px;height: 40px;"><span>天陀男女表</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                
+
+                <a href="https://search.jd.com/Search?keyword=手表" target="_balnk" class="search"><span>获取更多>></span></a>
+                </ul>
+                </div>
+      </li>
+     	<li class="firstli">母婴
+           <div class="info">
+              <ul>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my1.jpg" style="width: 40px;height: 40px;"><span>孕妇产褥垫</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my2.jpg" style="width: 40px;height: 40px;"><span>孕妇产褥垫</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my3.jpg" style="width: 40px;height: 40px;"><span>孕妇产褥垫</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my4.jpg" style="width: 40px;height: 40px;"><span>孕妇产褥垫</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my5.jpg" style="width: 40px;height: 40px;"><span>孕妇产褥垫</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my6.jpg" style="width: 40px;height: 40px;"><span>孕妇产褥垫</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my7.jpg" style="width: 40px;height: 40px;"><span>孕妇产褥垫</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my8.jpg" style="width: 40px;height: 40px;"><span>待产包套</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my9.jpg" style="width: 40px;height: 40px;"><span>产妇卫生裤</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my10.jpg" style="width: 40px;height: 40px;"><span>恩尼诺奶瓶</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my11.jpg" style="width: 40px;height: 40px;"><span>日本花王纸尿裤</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my12.jpg" style="width: 40px;height: 40px;"><span>十月妈咪待产包</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my13.jpg" style="width: 40px;height: 40px;"><span>日本花王纸尿裤</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my14.jpg" style="width: 40px;height: 40px;"><span>孕妇产褥垫</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my15.jpg" style="width: 40px;height: 40px;"><span>月子包绵柔型</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my16.jpg" style="width: 40px;height: 40px;"><span>日本花王纸尿裤</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my17.jpg" style="width: 40px;height: 40px;"><span>子初孕妇牙膏</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my18.jpg" style="width: 40px;height: 40px;"><span>日本花王纸尿裤</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my19.jpg" style="width: 40px;height: 40px;"><span>贝莱康绵柔巾</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my20.jpg" style="width: 40px;height: 40px;"><span>子初产褥</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/my21.jpg" style="width: 40px;height: 40px;"><span>子初一次性马桶垫</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                
+
+                <a href="https://search.jd.com/Search?keyword=母婴" target="_balnk" class="search"><span>获取更多>></span></a>
+                </ul>
+                </div>
+      </li>
+     	<li class="firstli">美食专场
+           <div class="info">
+              <ul>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms1.jpg" style="width: 40px;height: 40px;"><span>良品铺子大礼包</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms2.jpg" style="width: 40px;height: 40px;"><span>零食大礼包</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms3.jpg" style="width: 40px;height: 40px;"><span>口水娃大礼包</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms4.jpg" style="width: 40px;height: 40px;"><span>盐津铺子杏菇包</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms5.jpg" style="width: 40px;height: 40px;"><span>百草味牛肉干</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms6.jpg" style="width: 40px;height: 40px;"><span>多尔比黄桃罐头</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms7.jpg" style="width: 40px;height: 40px;"><span>良品铺子麻花</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms8.jpg" style="width: 40px;height: 40px;"><span>口水娃进口礼包</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms9.jpg" style="width: 40px;height: 40px;"><span>麻辣多拿年货礼包</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms10.jpg" style="width: 40px;height: 40px;"><span>进口零食</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms11.jpg" style="width: 40px;height: 40px;"><span>春季踏青美食礼包</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms12.jpg" style="width: 40px;height: 40px;"><span>嘉华鲜花饼</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms13.jpg" style="width: 40px;height: 40px;"><span>棒棒娃牛肉干</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms14.jpg" style="width: 40px;height: 40px;"><span>良品铺子麻辣金钱菇</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms15.jpg" style="width: 40px;height: 40px;"><span>零食大礼包</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms16.jpg" style="width: 40px;height: 40px;"><span>丫眯乐鲜花饼</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms17.jpg" style="width: 40px;height: 40px;"><span>黄老黑芝麻酥</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms18.jpg" style="width: 40px;height: 40px;"><span>周黑鸭锁骨</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms19.jpg" style="width: 40px;height: 40px;"><span>六一零食礼包</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms20.jpg" style="width: 40px;height: 40px;"><span>六一吃货表白神器</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+                <li class="secondli">
+                 <a href="#" class="title"><img src="images/ms21.jpg" style="width: 40px;height: 40px;"><span>胡先生的云南鲜花饼</span></a>
+                 <a href="#" class="buy">选购</a>
+                </li>
+
+                <a href="https://search.jd.com/Search?keyword=美食" target="_balnk" class="search"><span>获取更多>></span></a>
+                </ul>
+            </div>
+          </li>
+     	</ul>
+      </div>
+      <div id="show">
+        <div class="img" style="background:url('images/bg.jpg') center no-repeat/100% 100%">    
+      </div>
+    </div>
+ 
+        <ul class="button">
+            <li class="hover"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script>
+      $("#banner .firstli .info").each(function(){
+          var $li =$(this).find("li");
+          var length =$li.length;
+          var width  =$li.width();
+          var height = $li.height();
+          var col =Math.ceil(length/6);//向上取整
+          $(this).width(col*width);
+
+          $li.each(function(i){
+            var x = Math.floor(i/6);
+            var y = i%6;
+            $(this).css({
+              left:x*width+"px",
+              top:y*height+"px",
+            });
+
+          });
+      });
+
+    var _index=0;//初始化序列号
+    var timeplay=null;//声明定时器
+    $("#top .p").eq(0).show().siblings("div").hide();//最开始显示第一张
+    $("ul.button li").hover(function(){/*鼠标在上面*/
+    clearInterval(timeplay);//清除定时播放器
+    _index=$(this).index();//获取当后前li的序列号
+  
+    $(this).addClass("hover").siblings().removeClass("hover");//显示按钮
+        $("#top .p").eq(_index).fadeIn().siblings("div").fadeOut();//显示图片
+    
+    },function(){/*鼠标移开*/
+       autoplay();//调用定时播放器
+    });
+
+    //=====自动轮播
+    function  autoplay(){//构建自动轮播的函数
+    //设置定时器
+     
+    timeplay=setInterval(function(){
+    _index++;
+    if(_index<6){
+    $("ul.button li").eq(_index).addClass("hover").siblings().removeClass("hover");//显示按钮
+    $("#top .p").eq(_index).fadeIn().siblings("div").fadeOut();//显示图片  
+    } else{_index=-1;}   
+      
+      },2000);
+        };
+    autoplay();//调用和执行函数
+
+    $("#banner ul li").hover(function(){
+    $(this).find(".info").show();//显示menu盒子  鼠标放在上面显示
+        $(this).addClass("hover");//给li添加class=“hover”
+    },function(){
+    $(this).find(".info").hide();//鼠标移出 盒子隐藏
+    $(this).removeClass("hover");//移出li class=“hover”
+    });
+    
+    $("#Nav .nav").hover(function(){
+        $(this).find(".menu").show();//显示menu盒子  鼠标放在上面显示
+        $(this).addClass("hover");//给li添加class=“hover”
+        },function(){
+        $(this).find(".menu").hide();//鼠标移出 盒子隐藏
+        $(this).removeClass("hover");//移出li class=“hover”
+        });
+  </script>
+</body>
+</html>
